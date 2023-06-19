@@ -3,106 +3,133 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Projeto Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo.jpg" alt="Bootstrap" width="150" height="100">
-        </a>
-      </div>
+    <header>
+      <h1>FESTA JUNINA</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light $red-400">
       <div class="container-fluid">
-        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#historia">História</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link" href="#roupas">Roupas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link" href="#brincadeiras">Brincadeiras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#comidas">Comidas Típicas</a>
             </li>
           </ul>
-          
         </div>
       </div>
     </nav>
-       
-    <img src="images/caracteristicas.webp" alt="" height="700px" width="100%">
+    <div id="capa">
+      <img src="images/capa.png" class="img-fluid" alt="...">
+    </div>
+    <img src="images/bandeirinhas.png" class="img-fluid" alt="...">
 
-    <div class="card mb-3" style="max-width: 100%;">
-      <div class="row g-0">
+    <div class="card mb-3 border-0" style="max-width: 100%;">
+      <div class="row g-0 custom-bg-color">
         <div class="col-md-4">
-          <img src="images/caracteristicas.webp" class="img-fluid rounded-start" alt="...">
+          <img src="images/img_historia.png" class="img-fluid rounded-start" alt="...">
         </div>
         <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">História</h5>
-            <p class="card-text">"A festa junina é uma tradicional festividade popular que acontece durante o mês de junho. Essa comemoração é comum em todas as regiões do Brasil, especialmente no Nordeste, e foi trazida para o Brasil por influência dos portugueses no século XVI. Inicialmente, a festa possuía uma conotação estritamente religiosa e era realizada em homenagem a santos como São João e Santo Antônio."</p>
+          <div class="card-body custom-bg-color">
+            <h5 id="historia">História</h5>
+            <p class="card-text">A festa junina é uma tradicional celebração brasileira que ocorre no mês de junho em homenagem aos santos juninos, Santo Antônio, São João e São Pedro. Caracterizada por fogueiras, quadrilhas, bandeirinhas, música, danças e comidas típicas, a festa junina é uma oportunidade de reunir pessoas para celebrar a cultura e tradições do país, trazendo alegria e diversão a todos.</p>
             
           </div>
         </div>
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100%;">
-      <div class="row g-0">
+    <img src="images/bandeirinhas.png" class="img-fluid" alt="...">
+
+    <div class="card mb-3 border-0" style="max-width: 100%;">
+      <div class="row g-0 custom-bg-color">
+        <div class="col-md-8">
+          <div class="card-body custom-bg-color">
+            <h5 id="roupas">Roupas</h5>
+            <p class="card-text">As roupas típicas das festas juninas são conhecidas como trajes caipiras. Para as mulheres, é comum usar vestidos rodados e coloridos, geralmente com estampas xadrez ou florais. Os acessórios incluem chapéus de palha, fitas coloridas no cabelo e pinturas no rosto. Já para os homens, o traje caipira geralmente consiste em camisas xadrezes, calças jeans ou de tecido, chapéus de palha e lenços no pescoço. O objetivo é se vestir de forma descontraída e rústica, em sintonia com o ambiente festivo e a temática rural das festas juninas.</p>
+          </div>
+        </div>
         <div class="col-md-4">
-          <img src="images/caracteristicas.webp" class="img-fluid rounded-start" alt="...">
+          <img src="images/img_roupas.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+    </div>
+    
+
+    <img src="images/bandeirinhas.png" class="img-fluid" alt="...">
+
+    <div class="card mb-3 border-0" style="max-width: 100%;">
+      <div class="row g-0 custom-bg-color">
+        <div class="col-md-4">
+          <img src="images/img_brincadeiras.jpg" class="img-fluid rounded-start" alt="...">
         </div>
         <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Trajes</h5>
-            <p class="card-text">"A festa junina é uma tradicional festividade popular que acontece durante o mês de junho. Essa comemoração é comum em todas as regiões do Brasil, especialmente no Nordeste, e foi trazida para o Brasil por influência dos portugueses no século XVI. Inicialmente, a festa possuía uma conotação estritamente religiosa e era realizada em homenagem a santos como São João e Santo Antônio."</p>
+          <div class="card-body custom-bg-color">
+            <h5 id="brincadeiras">Brincadeiras</h5>
+            <p class="card-text">As festas juninas são conhecidas por suas brincadeiras tradicionais que proporcionam diversão e interação entre os participantes. Entre as brincadeiras populares estão a pescaria, correio elegante, boca do palhaço, argolas, dança das cadeiras, quebra-pote e casamento caipira. Essas atividades, cheias de alegria e descontração, fazem parte da essência das festas juninas, trazendo diversão para todas as idades.</p>
             
           </div>
         </div>
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 100%;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="images/caracteristicas.webp" class="img-fluid rounded-start" alt="...">
-        </div>
+    <img src="images/bandeirinhas.png" class="img-fluid" alt="...">
+
+    <div class="card mb-3 border-0" style="max-width: 100%;">
+      <div class="row g-0 custom-bg-color">
         <div class="col-md-8">
+          <div class="card-body custom-bg-color">
+            <h5 id="comidas">Comidas Típicas</h5>
+            <p class="card-text">As comidas típicas das festas juninas são uma parte essencial e deliciosa dessa celebração. Entre os pratos mais tradicionais estão a canjica, feita com milho, leite e açúcar; o milho verde cozido, que traz o sabor natural do grão; a pamonha, uma massa de milho envolta em folhas e cozida; o pé de moleque, uma rapadura de amendoim e açúcar; o quentão, uma bebida quente de cachaça com especiarias; o cachorro-quente, que ganha destaque nas barracas; e a maçã do amor, com sua cobertura de caramelo vermelho brilhante. Essas iguarias trazem um sabor único e remetem à tradição e ao clima acolhedor das festas juninas, tornando essa celebração ainda mais especial.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/img_comida.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+    </div>    
+    
+    <img src="images/bandeirinhas.png" class="img-fluid" alt="...">
+
+    <h5>Receitas</h5>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/carne_louca.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Brincadeiras</h5>
-            <p class="card-text">"A festa junina é uma tradicional festividade popular que acontece durante o mês de junho. Essa comemoração é comum em todas as regiões do Brasil, especialmente no Nordeste, e foi trazida para o Brasil por influência dos portugueses no século XVI. Inicialmente, a festa possuía uma conotação estritamente religiosa e era realizada em homenagem a santos como São João e Santo Antônio."</p>
-            
+            <h5 class="card-title">Carne Louca</h5>
+          </div>          
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/bolo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bolo de Paçoca</h5>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="card mb-3" style="max-width: 100%;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="images/caracteristicas.webp" class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/pipoca.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Comidas Típicas</h5>
-            <p class="card-text">"A festa junina é uma tradicional festividade popular que acontece durante o mês de junho. Essa comemoração é comum em todas as regiões do Brasil, especialmente no Nordeste, e foi trazida para o Brasil por influência dos portugueses no século XVI. Inicialmente, a festa possuía uma conotação estritamente religiosa e era realizada em homenagem a santos como São João e Santo Antônio."</p>
-            
+            <h5 class="card-title">Pipoca Doce de Leite em Pó</h5>
           </div>
         </div>
       </div>

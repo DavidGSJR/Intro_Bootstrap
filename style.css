@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: Chunk;
+    src: url("../fonts/Chunk.ttf");
+}
+body, .custom-bg-color{
+    background-color: #fab9b9;
+}
+h1{
+    text-align: center;
+    color: #9EA1D4;
+    font-family: Chunk;
+}
+#capa{
+    text-align: center;
+}
+#historia, #roupas, #brincadeiras, #comidas{
+    text-transform: uppercase;
+    color: #56598f;
+    font-family: Chunk;
+}
+.card-text{
+    color: #517d7d;
+}
+
+  
+
